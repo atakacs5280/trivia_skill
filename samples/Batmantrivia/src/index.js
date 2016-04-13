@@ -1,10 +1,7 @@
 /**
  Copyright 2014-2015 Amazon.com, Inc. or its affiliates. All Rights Reserved.
-
  Licensed under the Apache License, Version 2.0 (the "License"). You may not use this file except in compliance with the License. A copy of the License is located at
-
  http://aws.amazon.com/apache2.0/
-
  or in the "license" file accompanying this file. This file is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
  */
 
@@ -21,248 +18,186 @@
  */
 var questions = [
     {
-        "Reindeer have very thick coats, how many hairs per square inch do they have?": [
-            "13,000",
-            "1,200",
-            "5,000",
-            "700",
-            "1,000",
-            "120,000"
+        "What is batman's birth name?": [
+            "Bruce Wayne",
+            "Tom Selleck",
+            "Deadpool",
+            "Wruce Bayne",
+            "James Gandolfini",
+            "Mark Carpenter"
         ]
     },
     {
-        "The 1964 classic Rudolph The Red Nosed Reindeer was filmed in:": [
-            "Japan",
-            "United States",
-            "Finland",
-            "Germany"
+        "Batman lives in which city?": [
+            "Gotham",
+            "Springfield",
+            "Jupiters Red Dot Region",
+            "Your moms house"
         ]
     },
     {
-        "Santas reindeer are cared for by one of the Christmas elves, what is his name?": [
-            "Wunorse Openslae",
-            "Alabaster Snowball",
-            "Bushy Evergreen",
-            "Pepper Minstix"
+        "How many times did batman throw his batarang at the button in the Lego Movie to open the gate to the Octan Corporation?": [
+            "1 time",
+            "2 times",
+            "Too many to count",
+            "Who is batman?"
         ]
     },
     {
-        "If all of Santas reindeer had antlers while pulling his Christmas sleigh, they would all be:": [
-            "Girls",
-            "Boys",
-            "Girls and boys",
-            "No way to tell"
+        "When batman was a child, his parents did what specific thing?": [
+            "Died",
+            "Lied",
+            "Bought batman a kickass motorcycle",
+            "Entered him into beauty pagents"
         ]
     },
     {
-        "What do Reindeer eat?": [
-            "Lichen",
-            "Grasses",
-            "Leaves",
-            "Berries"
+        "What does batman eat?": [
+            "Food",
+            "Jokers insanity",
+            "Tears of sadness",
+            "Adam Wests famous Chicken and Waffels"
         ]
     },
     {
-        "What of the following is not true?": [
-            "Caribou live on all continents",
-            "Both reindeer and Caribou are the same species",
-            "Caribou are bigger than reindeer",
-            "Reindeer live in Scandinavia and Russia"
+        "Which of the following statements is false?": [
+            "Batman is known for killing all of his enemies",
+            "Batman lives in a mansion",
+            "Batman despises the joker",
+            "Batman is a very sad sad man"
         ]
     },
     {
-        "In what year did Rudolph make his television debut?": [
-            "1964",
-            "1979",
-            "2000",
-            "1956"
+        "What did the mutants say in Batman: The Dark Knight Returns": [
+            "Slice and Dice!",
+            "We are in protest of bats!",
+            "What happened to our noses?",
+            "We are only here to help people the people of Gotham cook the best peach cobbler!"
         ]
     },
     {
-        "Who was the voice of Rudolph in the 1964 classic?": [
-            "Billie Mae Richards",
-            "Burl Ives",
-            "Paul Soles",
-            "Lady Gaga"
+        "What is batmans butlers name?": [
+            "Alfred Pennysworth",
+            "That guy in inception",
+            "Michelle Obama",
+            "Burt Reynolds Mustache"
         ]
     },
     {
-        "In 1939 what retailer used the story of Rudolph the Red Nose Reindeer?": [
-            "Montgomery Ward",
-            "Sears",
-            "Macys",
-            "Kmart"
+        "What is batmans true loves name?": [
+            "Rachel",
+            "Your mom",
+            "A bat in a bikini",
+            "The people of Walmart"
         ]
     },
     {
-        "Santa's reindeer named Donner was originally named what?": [
-            "Dunder",
-            "Donny",
-            "Dweedle",
-            "Dreamy"
+        "Batman once fought a villain that lived in the sewer, what is that villians name?": [
+            "Killer Croc",
+            "number 2",
+            "James",
+            "Superman looking for his wedding ring"
         ]
     },
     {
-        "Who invented the story of Rudolph?": [
-            "Robert May",
-            "Johnny Marks",
-            "Santa",
-            "J.K. Rowling"
+        "Ras' al Ghul is the leader of what league?": [
+            "League of Shadows",
+            "National Football League",
+            "Tom's famous fantasy baseball league",
+            "20,000 leagues under the sea"
         ]
     },
     {
-        "In what location will you not find reindeer?": [
-            "North Pole",
-            "Lapland",
-            "Korvatunturi mountain",
+        "Where will you never see batman?": [
+            "anywhere other than Gotham",
+            "Gotham",
+            "A Cracker Barrel",
             "Finland"
         ]
     },
     {
-        "What Makes Santa's Reindeer Fly?": [
-            "Magical Reindeer Dust",
-            "Fusion",
-            "Amanita muscaria",
-            "Elves"
+        "What makes batman so awesome?": [
+            "He just is, thats a stupid question",
+            "His deep voice that sounds like he's half spitting and yelling at the same time",
+            "His amazing ability to do ballet",
+            "His tight pants"
         ]
     },
     {
-        "Including Rudolph, how many reindeer hooves are there?": [
-            "36",
-            "24",
-            "16",
-            "8"
+        "Lucias Fox in the Dark Knight trilogy is played by?": [
+            "Morgan Freeman",
+            "God",
+            "Batman",
+            "Lucias Fox"
         ]
     },
     {
-        "Santa only has one female reindeer. Which one is it?": [
-            "Vixen",
-            "Clarice",
-            "Cupid",
+        "What is batmans least favorite animal?": [
+            "Bats",
+            "Lobsters",
+            "The tiny little ants that live in his kitchen ",
             "Cupid"
         ]
     },
     {
-        "In the 1964 classic Rudolph The Red Nosed Reindeer, what was the snowman narrators name?": [
-            "Sam",
-            "Frosty",
-            "Burl",
-            "Snowy"
+        "Who breaks batmans back in The Dark Knight Rises?": [
+            "bane",
+            "Frosty the snowman",
+            "A Deadlift",
+            "his shoes, when he bent the wrong way to pick them up"
         ]
     },
     {
-        "What was Rudolph's father's name?": [
-            "Donner",
-            "Dasher",
-            "Blixen",
-            "Comet"
+        "What is Batmans favorite color?": [
+            "Black, or very very dark grey",
+            "Sunshine",
+            "hazel",
+            "Bats are blind you idiot"
         ]
     },
     {
-        "In the 1964 movie, What was the name of the coach of the Reindeer Games?": [
-            "Comet",
-            "Blixen",
-            "Donner",
-            "Dasher"
+        "Is Mr. Freeze Smart?": [
+            "Yes, He is a doctor",
+            "no",
+            "well, he acts it but its just for show",
+            "I guess, i dont really know"
         ]
     },
     {
-        "In the 1964 movie, what is the name of the deer that Rudolph befriends at the reindeer games?": [
-            "Fireball",
-            "Clarice",
-            "Jumper",
-            "Vixen"
+        "Is Batman cool?": [
+            "Yes",
+            "no",
+            "perhaps",
+            "no, i like the joker"
         ]
     },
     {
-        "In the 1964 movie, How did Donner, Rudolph's father, try to hide Rudolph's nose?": [
-            "Black mud",
-            "Bag",
-            "Pillow case",
-            "Sock"
+        "How many tries does it take for Batman to scale the wall in the prision in The Dark Knight Rises?": [
+            "3",
+            "0, hes still in there",
+            "245",
+            "Bane is the only man to escape"
         ]
     },
     {
-        "In the 1964 movie, what does the Misfit Elf want to be instead of a Santa Elf?": [
-            "Dentist",
-            "Reindeer",
-            "Toy maker",
-            "Candlestick maker"
+        "When will batman get over rachels death in The Dark Knight?": [
+            "never",
+            "a couple weeks, we all go through it eventually",
+            "Hes over it",
+            "When she is revived by deadpool"
         ]
     },
+
     {
-        "In the 1964 movie,what was the Bumble's one weakness?": [
-            "Could not swim",
-            "Always hungry",
-            "Candy canes",
-            "Cross eyed"
-        ]
-    },
-    {
-        "In the 1964 movie, what is Yukon Cornelius really in search of?": [
-            "Peppermint",
-            "Gold",
-            "India",
-            "Polar Bears"
-        ]
-    },
-    {
-        "In the 1964 movie, why is the train on the Island of Misfit Toys?": [
-            "Square wheels",
-            "No Engine",
-            "Paint does not match",
-            "It does not toot"
-        ]
-    },
-    {
-        "In the 1964 movie, what is the name of the Jack in the Box?": [
-            "Charlie",
-            "Sam",
-            "Billy",
-            "Jack"
-        ]
-    },
-    {
-        "In the 1964 movie, why did Santa Claus almost cancel Christmas?": [
-            "Storm",
-            "No snow",
-            "No toys",
-            "The Reindeer were sick"
-        ]
-    },
-    {
-        "In the 1964 movie, what animal noise did the elf make to distract the Bumble?": [
-            "Oink",
-            "Growl",
-            "Bark",
-            "Meow"
-        ]
-    },
-    {
-        "In the 1964 movie, what is the name of the prospector?": [
-            "Yukon Cornelius",
-            "Slider Sam",
-            "Bumble",
-            "Jack"
-        ]
-    },
-    {
-        "How far do reindeer travel when they migrate?": [
-            "3000 miles",
-            "700 miles",
-            "500 miles",
-            "0 miles"
-        ]
-    },
-    {
-        "How fast can a reindeer run?": [
-            "48 miles per hour",
+        "How fast can batman run?": [
+            "Super Fast",
             "17 miles per hour",
-            "19 miles per hour",
-            "14 miles per hour"
+            "Faster than flash thats for sure",
+            "He doesnt run"
         ]
     }
 ];
+
 
 // Route the incoming request based on type (LaunchRequest, IntentRequest,
 // etc.) The JSON body of the request is provided in the event parameter.
@@ -275,9 +210,9 @@ exports.handler = function (event, context) {
          * prevent someone else from configuring a skill that sends requests to this function.
          */
 
-//     if (event.session.application.applicationId !== "amzn1.echo-sdk-ams.app.05aecccb3-1461-48fb-a008-822ddrt6b516") {
-//         context.fail("Invalid Application ID");
-//      }
+     if (event.session.application.applicationId !== "amzn1.echo-sdk-ams.app.8a1cd5f5-9ee9-4ccd-8a6e-cb9672d16420") {
+        context.fail("Invalid Application ID");
+     }
 
         if (event.session.new) {
             onSessionStarted({requestId: event.request.requestId}, event.session);
@@ -385,11 +320,11 @@ function onSessionEnded(sessionEndedRequest, session) {
 
 var ANSWER_COUNT = 4;
 var GAME_LENGTH = 5;
-var CARD_TITLE = "Reindeer Games"; // Be sure to change this for your skill.
+var CARD_TITLE = "Funny Batman Trivia"; // Be sure to change this for your skill.
 
 function getWelcomeResponse(callback) {
     var sessionAttributes = {},
-        speechOutput = "Reindeer Games. I will ask you " + GAME_LENGTH.toString()
+        speechOutput = "Funny Batman Trivia. I will ask you " + GAME_LENGTH.toString()
             + " questions, try to get as many right as you can. Just say the number of the answer. Let's begin. ",
         shouldEndSession = false,
 
@@ -649,4 +584,3 @@ function buildResponse(sessionAttributes, speechletResponse) {
         response: speechletResponse
     };
 }
-
